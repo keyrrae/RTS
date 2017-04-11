@@ -1,4 +1,4 @@
-class Par extends java.lang.Object {
+class Par {
     static int field1;
     int field3;
     int field4;
@@ -23,8 +23,8 @@ class Par extends java.lang.Object {
         return;
     }
 
-    void test4(int p){
-        field4 = p + 1999999;
+    void test4(int i){
+        field4 = i + 1999999;
         field1 += 1;
     }
 
